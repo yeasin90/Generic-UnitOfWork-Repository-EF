@@ -1,5 +1,5 @@
-# Generic-UnitOfWork-Repository-EF
-A generic Unit of Work and Repository pattern for Entity framework. Can be used with any Context class.
+# A Generic UnitOfWork and Repository pattern for Entity Framework
+This can be used for any of your model class. 
 
 # Example
 UnitOfWork uof = new UnitOfWork();
