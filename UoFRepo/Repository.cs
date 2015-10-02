@@ -18,12 +18,13 @@ namespace DBFirstEF.UoFRepo
 
         public Repository(DbContext context)
         {
-            if (context == null)
-                _context = ContextFactory.GetContext(ContextType.AdventureWorks2012Context);
-            else
-                _context = context;
-
+            _context = context;
             _dbSet = _context.Set<TEntity>();
+        }
+
+        public Repository(ContextType type)
+        {
+            _context = ContextFactory.GetContext(type);
         }
 
         #region CREATE
@@ -159,7 +160,7 @@ namespace DBFirstEF.UoFRepo
         {
             _dbSet.Attach(entity);
             _context.Entry(entity).State = EntityState.Modified;
-            
+
             return;
         }
 

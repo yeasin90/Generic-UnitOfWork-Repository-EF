@@ -10,8 +10,14 @@ namespace DBFirstEF.Repository
 {
     public class AddressTypeRepository : Repository<AddressType>
     {
-        public AddressTypeRepository(DbContext context = null) 
+        public AddressTypeRepository(DbContext context) 
             : base(context)
+        {
+
+        }
+
+        public AddressTypeRepository()
+            : base(ContextType.AdventureWorks2012Context)
         {
 
         }

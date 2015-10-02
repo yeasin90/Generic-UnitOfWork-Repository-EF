@@ -15,9 +15,9 @@ namespace DBFirstEF.UoFRepo
         private DbContext _context;
         private Dictionary<string, object> repositories;
 
-        public UnitOfWork()
+        public UnitOfWork(ContextType database)
         {
-            _context = ContextFactory.GetContext(ContextType.AdventureWorks2012Context);
+            _context = ContextFactory.GetContext(database);
             repositories = new Dictionary<string, object>();
         }
 

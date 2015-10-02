@@ -10,8 +10,14 @@ namespace DBFirstEF.Repository
 {
     public class ContactTypeRepository : Repository<ContactType>
     {
-        public ContactTypeRepository(DbContext context = null)
+        public ContactTypeRepository(DbContext context)
             : base(context)
+        {
+
+        }
+
+        public ContactTypeRepository()
+            : base(ContextType.AdventureWorks2012Context)
         {
 
         }

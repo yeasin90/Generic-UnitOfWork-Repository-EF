@@ -10,8 +10,14 @@ namespace DBFirstEF.RepositoryPattern
 {
     public class CustomerRepository : Repository<Customer>
     {
-        public CustomerRepository(DbContext context = null) 
+        public CustomerRepository(DbContext context)
             : base(context)
+        {
+
+        }
+
+        public CustomerRepository()
+            : base(ContextType.AdventureWorks2012Context)
         {
 
         }
