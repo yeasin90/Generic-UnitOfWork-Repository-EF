@@ -13,10 +13,10 @@ namespace DBFirstEF.UoFRepo
     // difference between dbset.Attach and dbset.Add : http://stackoverflow.com/questions/15950946/when-to-use-dbsett-add-vs-dbsett-attach
     public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
-        protected BaseDBContext _context;
+        protected DbContext _context;
         private DbSet<TEntity> _dbSet;
 
-        public Repository(BaseDBContext context)
+        public Repository(DbContext context)
         {
             if (context == null)
                 _context = ContextFactory.GetContext(ContextType.AdventureWorks2012Context);

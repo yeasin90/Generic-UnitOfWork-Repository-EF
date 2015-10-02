@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Entity;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -11,7 +12,7 @@ namespace DBFirstEF.UoFRepo
 {
     public class UnitOfWork : IDisposable
     {
-        private BaseDBContext _context;
+        private DbContext _context;
         private Dictionary<string, object> repositories;
 
         public UnitOfWork()

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,7 +9,7 @@ namespace DBFirstEF.UoFRepo
 {
     public static class ContextFactory
     {
-        public static BaseDBContext GetContext(ContextType type)
+        public static DbContext GetContext(ContextType type)
         {
             switch (type)
             {
