@@ -25,6 +25,7 @@ namespace DBFirstEF.UoFRepo
         public Repository(ContextType type)
         {
             _context = ContextFactory.GetContext(type);
+            _dbSet = _context.Set<TEntity>();
         }
 
         #region CREATE
