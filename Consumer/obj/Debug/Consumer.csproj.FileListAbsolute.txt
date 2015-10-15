@@ -10,3 +10,5 @@ F:\Local\GenericUofRepo\Consumer\Consumer\obj\Debug\Consumer.exe
 F:\Local\GenericUofRepo\Consumer\Consumer\obj\Debug\Consumer.pdb
 F:\Local\GenericUofRepo\Consumer\Consumer\bin\Debug\EntityFramework.SqlServer.dll
 F:\Local\GenericUofRepo\Consumer\Consumer\bin\Debug\EntityFramework.SqlServer.xml
+F:\Local\GenericUofRepo\Consumer\Consumer\bin\Debug\RepositoryUof.dll
+F:\Local\GenericUofRepo\Consumer\Consumer\bin\Debug\RepositoryUof.pdb

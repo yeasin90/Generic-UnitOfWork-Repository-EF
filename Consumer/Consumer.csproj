@@ -53,13 +53,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Data\Data.csproj">
       <Project>{be6e761c-1d18-4f5e-9236-f141741bc38b}</Project>
       <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RepositoryUof\RepositoryUof.csproj">
+      <Project>{d6160280-b40a-4a92-955c-8e6be1a3fbb4}</Project>
+      <Name>RepositoryUof</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

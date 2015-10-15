@@ -75,16 +75,6 @@
       <DependentUpon>AdventureWorks2012Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\AddressTypeRepository.cs" />
-    <Compile Include="Repository\ContactTypeRepository.cs" />
-    <Compile Include="Repository\CustomerRepository.cs" />
-    <Compile Include="Repository\SalesPersonRepository.cs" />
-    <Compile Include="Uof\ContextFactory.cs" />
-    <Compile Include="Uof\Contexttype.cs" />
-    <Compile Include="Uof\IRepository.cs" />
-    <Compile Include="Uof\Repository.cs" />
-    <Compile Include="Uof\SortOrder.cs" />
-    <Compile Include="Uof\UnitOfWork.cs" />
     <Compile Include="SalesOrderHeader.cs">
       <DependentUpon>AdventureWorks2012Model.tt</DependentUpon>
     </Compile>
