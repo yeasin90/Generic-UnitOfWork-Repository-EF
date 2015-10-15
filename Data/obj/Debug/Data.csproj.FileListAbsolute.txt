@@ -1,0 +1,10 @@
+F:\Local\GenericUofRepo\Consumer\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+F:\Local\GenericUofRepo\Consumer\Data\bin\Debug\Data.dll.config
+F:\Local\GenericUofRepo\Consumer\Data\bin\Debug\Data.dll
+F:\Local\GenericUofRepo\Consumer\Data\bin\Debug\Data.pdb
+F:\Local\GenericUofRepo\Consumer\Data\bin\Debug\EntityFramework.dll
+F:\Local\GenericUofRepo\Consumer\Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\Local\GenericUofRepo\Consumer\Data\bin\Debug\EntityFramework.xml
+F:\Local\GenericUofRepo\Consumer\Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\Local\GenericUofRepo\Consumer\Data\obj\Debug\Data.dll
+F:\Local\GenericUofRepo\Consumer\Data\obj\Debug\Data.pdb
