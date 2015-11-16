@@ -196,3 +196,7 @@ FakesAssemblies/
 *.opt
 /Data/obj/Debug/*.cache
 /Data/obj/Debug/*.cache
+/Consumer/bin/Debug/*.exe
+/Consumer/bin/Debug/*.pdb
+/Consumer/bin
+/Consumer/obj
