@@ -16,3 +16,4 @@ contactRepo.Insert(new ContactType { ContactTypeID = 107, ModifiedDate = DateTim
 
 contactRepo.Commit();
 ```
+In case you face any problem, knok me at : **abedinyeasin@gmail.com**
